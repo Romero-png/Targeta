@@ -143,3 +143,16 @@ button, .precio{
 .tarjeta:hover .precio{
     color: black;
 }
+
+@media screen and (max-width: 1028px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .tarjeta{
+        margin-top: 20px;
+    }
+}
